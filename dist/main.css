@@ -1,0 +1,43 @@
+.flip-v {
+    transform: scaleY(-1);
+}
+.flip-v .node > p {
+    transform: scaleY(-1);
+}
+#tree {
+    overflow: hidden;
+}
+.node {
+    display: block;
+    float: left;
+}
+.node > p {
+    border: 1px solid #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    margin: auto 50%;
+}
+
+.node:hover > p {
+    font-weight: bold;
+    border: 3px solid #000;
+    width: 16px;
+    height: 16px;
+}
+
+.node.data  > p {
+    border-radius: unset;
+}
+
+.children {
+    padding-top: 15px;
+}
+
+/*
+.node:hover > .children:last-of-type > .node > p {
+    background: #ddd;
+}
+*/
