@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "crypto-js": "^3.1.9-1",
+    "crypto-js": "^4.0.0",
     "merkletreejs": "0.0.22"
   },
   "devDependencies": {
